@@ -10,8 +10,7 @@ An interactive Streamlit dashboard that visualizes my personal Spotify streaming
 - Monthly and Hourly Listening Trends
 - Back-to-Back Plays Detection
 - Most Skipped Artists
-- Podcast Listening Insights
-- Media Type, Year, and Platform Filters
+
 
 ---
 
@@ -22,3 +21,4 @@ An interactive Streamlit dashboard that visualizes my personal Spotify streaming
 ```bash
 git clone https://github.com/tomisiin/spotify-streamlit-app.git
 cd spotify-streamlit-app
+
