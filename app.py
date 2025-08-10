@@ -19,7 +19,7 @@ df = load_data()
 st.title("🎧 Tomisin's Spotify Dashboard")
 st.markdown("This is a personal project to use python to analyse my lifetime Spotify history and visualize using Streamlit. Data here is from February 2021 through August 3rd 2025. Feel free to clone and use to visualize your listening history.")
 
-# Filters
+# Filters included
 media_type = st.selectbox("Media Type", df["media_type"].unique())
 years = sorted(df["year"].unique(), reverse=True)
 year_options = ["All Years"] + [str(y) for y in years]
