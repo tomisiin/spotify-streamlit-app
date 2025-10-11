@@ -42,7 +42,7 @@ col2.metric("🎵 Total Tracks Streamed", len(filtered))
 col3.metric("📅 Date Range", f"{filtered['ts'].min().date()} → {filtered['ts'].max().date()}")
 
 
-# Top songs
+# Top songs section
 top_songs = (
     filtered.groupby("master_metadata_track_name")["minutes_played"]
     .sum()
@@ -57,7 +57,7 @@ fig = px.bar(top_songs, x="minutes_played", y="master_metadata_track_name", orie
 st.plotly_chart(fig)
 
 
-# Top Artists
+# Top Artists section 
 st.subheader("🎤 Top 10 Artists")
 top_artists = (
     filtered.groupby("master_metadata_album_artist_name")["minutes_played"]
