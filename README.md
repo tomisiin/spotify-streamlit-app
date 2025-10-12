@@ -6,7 +6,7 @@ An interactive Streamlit dashboard that visualizes my personal Spotify streaming
 
 ## 📊 Features
 
-- Top 10 Songs and Artists
+- Top 10 Songs and Artists sections
 - Monthly and Hourly Listening Trends
 - Back-to-Back Plays Detection
 - Most Skipped Artists
@@ -21,4 +21,5 @@ An interactive Streamlit dashboard that visualizes my personal Spotify streaming
 ```bash
 git clone https://github.com/tomisiin/spotify-streamlit-app.git
 cd spotify-streamlit-app
+
 
