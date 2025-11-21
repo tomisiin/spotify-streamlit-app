@@ -27,14 +27,14 @@ def load_data(path="spotify_cleaned_data.csv"):
 
 df = load_data()
 
-# ---------- UI: Header ----------
+# ------- UI: Header -------
 st.title("🎧 Tomisin's Spotify Dashboard")
 st.markdown(
     "Personal project visualising my Spotify history (Feb 2021 → Aug 3, 2025). "
     "Clone and use for your data."
 )
 
-# ---------- Sidebar Filters ----------
+# ------- Sidebar Filters -------
 with st.sidebar:
     st.header("Filters")
     media_vals = ["All Media"] + sorted(df["media_type"].dropna().unique().tolist())
